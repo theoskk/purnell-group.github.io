@@ -1,17 +1,41 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-  		<link href="cheesecakeCSS/1.0.0/cheesecake.css" rel="stylesheet">
-  		<style>a { color: white; }</style>
-  		<title>Purnell Group / Home</title>
+  		<link href="http://cdn.rawgit.com/purnell-group/cheesecakeCSS/dbee3ffbc34fe154bb127ce0d95ebdf460ab1a71/1.0.1/cheesecake.css" rel="stylesheet">
+        <style>
+        img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+            #cheesecake { position: fixed; top: 127px; left: 372px; -webkit-transform: rotate(318deg);
+-moz-transform: rotate(318deg);
+-o-transform: rotate(318deg);
+writing-mode: lr-tb;}
+            
+            #comingsoon1 { position: fixed; top: 247px; left: 482px; -webkit-transform: rotate(318deg);
+-moz-transform: rotate(318deg);
+-o-transform: rotate(318deg);
+writing-mode: lr-tb;}
+            
+            #comingsoon2 { position: fixed; top: 387px; left: 632px; -webkit-transform: rotate(318deg);
+-moz-transform: rotate(318deg);
+-o-transform: rotate(318deg);
+writing-mode: lr-tb;}
+            h1, p { padding-left: 60px; }
+        </style>
+        <title>Purnell Group / Home</title>
 	</head>
-	<body>
-		<div style="padding: 20px;">
-		<p style="font-family: Arvo; font-size: 30pt; color: black;"><span style="color: #57862D; font-family: Arvo;">purnell</span> group</p>
-		<header class="header header-green">
-		<h1>Software</h1>
-		<a href="http://purnell-group.github.io/cheesecakeCSS/index.html"><span class="label label-yellow" style="font-size: 20pt;">{ cheesecakeCSS }</span></a><a href="#"><br /><br /><span class="label label-yellow" style="font-size: 20pt;">[ Noodle ]</span><span>Coming soon!</span></a><br /><br /><a href="#"><span class="label label-green" style="font-size: 20pt;">le Education</span><span>Coming soon!</span></a></header>
-		</h1>
-		</div>
+	<img src="Purnell_Group_Circle.png">
+    <h1>Welcome</h1>
+    <p>Please select a project</p>
+    <div id="cheesecake"><a href='cheesecakeCSS'><span class="label label-yellow" style="font-size: 30pt;">{ cheesecakeCSS }</span></a></div>
+    <div id="comingsoon2"><a href='cheesecakeCSS'><span class="label label-red" style="font-size: 30pt;">{ Coming soon! }</span></a></div>
+    <div id="comingsoon1"><a href='cheesecakeCSS'><span class="label label-blue" style="font-size: 30pt;">{ Coming soon! }</span></a></div>
 	</body>
 </html>
